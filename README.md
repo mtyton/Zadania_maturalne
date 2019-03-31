@@ -23,11 +23,14 @@ iterator = 0
 ### Zad3
   numbs = read_file()  
   count_power(numbs)
-############################################################################
+# Początek
 na początku należy wczytać liczby z plki "liczby.txt", robimy to przy pomocy funkcji - read_file()
-# 1) Zadanie pierwsze każe nam znaleźć liczby, które posiadają jedynie 3 różne czynniki pierwsze, do tego posłuży nam funkcja "to_primals"
-# 2)Przy wykonywaniu zadania drugie należy skorzystać z funkcji "rev" - odwraca liczbę oraz "pali_sum"-sprawdza czy suma liczby i jej odwrotności jest palindromem
-# 3) Szukamy mocy liczby n czyli który element ciągu jesteśmy w stanie maksmalnie policzyć z zdanej anm liczby wg wzoru:
+# 1) 
+Zadanie pierwsze każe nam znaleźć liczby, które posiadają jedynie 3 różne czynniki pierwsze, do tego posłuży nam funkcja "to_primals"
+# 2)
+Przy wykonywaniu zadania drugie należy skorzystać z funkcji "rev" - odwraca liczbę oraz "pali_sum"-sprawdza czy suma liczby i jej odwrotności jest palindromem
+# 3) 
+Szukamy mocy liczby n czyli który element ciągu jesteśmy w stanie maksmalnie policzyć z zdanej anm liczby wg wzoru:
 n1 = w(n)
 n2 = w(n1)
 itd...
