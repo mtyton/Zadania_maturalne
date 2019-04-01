@@ -4,7 +4,7 @@
 #  all
 def read_file():
     """
-    Simply read given file
+    Simply reads given file
     :return:
     """
     numbs = []
@@ -108,7 +108,7 @@ def multiplier(digits):
 #  3
 def to_digits(numb):
     """
-    changes number in a list digits
+    changes number in a list of digits
     :param numb:
     :return:
     """
