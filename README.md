@@ -7,22 +7,22 @@ Zawiera zadania ze zbioru zadań maturalnych - informatyka
 W programie wywoływane jest 3 zadanie, aby to zmeinić należy zmienić wywołanie funkcji na funkcję z innego zadania
 # Wzorce wywołań:
 ### Zad1 - uwaga 1 zadanie długo się przetwarza
-  iterator = 0
+    iterator = 0
     numbs = read_file()
     for numb in numbs:
-        if to_primals(numb):
+     if to_primals(numb):
             iterator += 1
     print(iterator)
 ### Zad2
-iterator = 0
+    iterator = 0
     numbs = read_file()
     for numb in numbs:
         if pali_sum(numb):
             iterator += 1
     print(iterator)
 ### Zad3
-  numbs = read_file()  
-  count_power(numbs)
+    numbs = read_file()  
+    count_power(numbs)
 # Początek
 na początku należy wczytać liczby z plki "liczby.txt", robimy to przy pomocy funkcji - read_file()
 # 1) 
