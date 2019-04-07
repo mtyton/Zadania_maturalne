@@ -50,6 +50,14 @@ Jak w większości zadań maturalnych wczytujemy tutaj zawartość pliku z danym
 przechowuje moje liczniki (counters) a druga mianowniki (denominators)
 ## 1)
 Musimy znaleźć ułamka o najmniejszej wartości, w tym celu dzielę po prostu licznik przez mianownik i porównuję otrzymane wyniki
+```
+score = counters[x] / denominators[x]
+        if score < minimum:
+            ...
+        elif score == minimum:
+            ...
+```
+
 ## 2)
 Mamy podać liczbę ułamków zapisanych w postaci nieskracalnej (np 3/5), w tym celu piszemy funkcję ```nwd()```, która liczy nasz największy wspólny dzielnik dla licznika i mianownika, jeśli jest on równy 1 wtedy mamy do czynienia z ułamkiem nieskracalnym
 ```
@@ -66,4 +74,11 @@ score = 0
     print(score)
 ```
 ## 4)
-W tym zadaniu mamy zsumować wszystkie
+W tym zadaniu mamy zsumować wszystkie ułamki oraz podać ich wsolny licznik, korzystamy do tegop z funkcji summary
+```
+score=0
+    shared_dividor = (2**2)*(3**2)*(5**2)*(7**2)*13
+    for x in range(len(counters)):
+        score+= shared_dividor * counters[x] / denominators[x]
+    print(score)
+```
